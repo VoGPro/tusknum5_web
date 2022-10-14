@@ -1,8 +1,13 @@
 body {
+    background-image: url("code-bc.jpg");
     text-align: center;
 }
 
-form input {
+h1, p, #result {
+    color: white;
+}
+
+#myForm input {
     margin-bottom: 10px;
 }
 
