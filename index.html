@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Simple Calculator</h1>
+
+    <form>
+        <input name="field1" type="text" placeholder="Цена товара">
+        <input name="field2" type="text" placeholder="Кол-во товара">
+        <button id="button1" onclick="return click1();">OK</button>
+    </form>
+
+    <p>Стоимость заказа:&nbsp;</p>
+    <div id="result"></div>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>
