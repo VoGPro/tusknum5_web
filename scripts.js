@@ -6,7 +6,7 @@ function click1(event) {
   let v1 = parseInt(f1[0].value);
   let v2 = parseInt(f2[0].value);
 
-  if (isNaN(v1) || isNaN(v2)) alert("Введите корректное значение!");
+  if (isNaN(v1) || isNaN(v2) || v1 <= 0 || v2 <= 0) alert("Введите корректное значение!");
   else r.innerHTML = v1 * v2;
 
   event.preventDefault();
